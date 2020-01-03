@@ -12,7 +12,7 @@ class Dog
   
   def self.all
     @@all
-    Dog.new
+    self
   end
   
 end
